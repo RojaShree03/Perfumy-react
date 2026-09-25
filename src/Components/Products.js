@@ -7,17 +7,17 @@ function Products() {
         <div className="products">
 
             <div className="box">
-                <img src={guerlain} height="200" width="150" />
+                <img src={guerlain} alt={GuerlainPerfume} height="200" width="150" />
                 <p>Guerlain Perfume</p>
             </div>
 
             <div className="box">
-                <img src={perfume} height="200" width="150" />
+                <img src={perfume} alt={UnknownPerfume} height="200" width="150" />
                 <p>Unknown Perfume</p>
             </div>
 
             <div className="box">
-                <img src={roja} height="200" width="150" />
+                <img src={roja} alt={RojaPerfume} height="200" width="150" />
                 <p>Roja Perfume</p>
             </div>
         </div>
